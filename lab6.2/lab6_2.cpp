@@ -30,7 +30,7 @@ int Max(int* a, const int size, int i, int max)
 		return max;
 }
 
-int Min(int* a, const int size, int i, int min)
+int Min(int *a, const int size, int i, int min)
 {
 	if (a[i] < min)
 		min = a[i];
